@@ -1,6 +1,33 @@
 # ASIR-PI-IDS-T-Pot-Debian
-Proyecto Integrado ASIR - IDS Suricata + Honeypot T-Pot en Debian 13
 
-buenas somos raul y cesar y este es nuestro proyecto
+**Proyecto Integrado ASIR**  
+**Instalación y administración de IDS Suricata + Honeypot T-Pot en Debian 13**
 
-ESTO ES UNA ACTUALIZACION
+## Autores
+- **Alumno 1**: Raul Yerga Blanco → Responsable de Suricata (IDS) + pruebas de ataques
+- **Alumno 2**: Cesar Acevedo Gomez → Responsable de T-Pot (Honeypot) + scripts de alertas
+
+## Objetivo del proyecto
+Desplegar un sistema completo de detección de intrusiones (Suricata) y honeypot (T-Pot) en Debian 13 para monitorizar y analizar ataques en una red.
+
+## Tecnologías utilizadas
+- Debian 13 (Trixie)
+- Suricata (IDS)
+- T-Pot 24.04 (Honeypot framework con Docker)
+- Python / Bash (scripts de alertas)
+- VirtualBox
+
+## Estructura del repositorio
+- `/config/suricata` → Reglas y configuración de Suricata  
+- `/config/tpot`     → Archivos de configuración de T-Pot  
+- `/scripts`         → Scripts de alertas y automatización  
+- `/capturas`        → Pantallazos de pruebas y dashboard  
+- `/docs`            → Documentación técnica  
+- `/memoria`         → Propuesta PI y memoria final
+
+## Cómo probar el proyecto
+1. Arrancar la VM con Debian 13
+2. Acceder al dashboard de T-Pot: `https://IP-DE-LA-VM:64297`
+3. Ejecutar pruebas con Nmap desde otro equipo
+
+**Estado actual**: En desarrollo
